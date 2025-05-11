@@ -1,39 +1,89 @@
+/* Base page styling */
 body {
   font-family: Arial, sans-serif;
-  margin: 40px;
+  line-height: 1.6;
   background: #f4f4f4;
   color: #333;
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 0 20px;
 }
 
+/* Header */
 header {
   text-align: center;
   margin-bottom: 40px;
 }
 
+h1 {
+  font-size: 2.2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Navigation bar */
 nav {
   text-align: center;
   margin-bottom: 20px;
 }
 
 nav a {
-  margin: 0 10px;
+  margin: 0 12px;
   text-decoration: none;
   color: #0077cc;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
 }
 
+nav a:hover {
+  text-decoration: underline;
+  color: #005999;
+}
+
+/* Section blocks (About, Projects, etc.) */
 section {
   background: #fff;
-  padding: 20px;
+  padding: 20px 30px;
   margin-bottom: 20px;
   border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
+/* Projects section */
 .project {
   margin-bottom: 15px;
 }
 
+/* Skills list styling */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+}
+
+a:visited {
+  color: #005c99;
+}
+
+/* Footer */
 footer {
   text-align: center;
   font-size: 0.9em;
   margin-top: 40px;
+  color: #666;
 }
